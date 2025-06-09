@@ -17,7 +17,7 @@ function CadastroPrato() {
 
   const { exibirMensagem } = useMensagem();
   
-  console.log('https://prova2-29-05-2025.onrender.com', process.env.REACT_APP_API_URL);
+  console.log('https://prova2-29-05-2025-rer8.onrender.com', process.env.REACT_APP_API_URL);
 
   const cadastrarPrato = async () => {
     try {
