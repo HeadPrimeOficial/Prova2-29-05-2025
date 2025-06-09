@@ -1,7 +1,0 @@
-com\example\aula\model\categoria.class
-com\example\aula\AulaApplication.class
-com\example\aula\model\Cardapio.class
-com\example\aula\model\disponibilidade.class
-com\example\aula\controller\CardapioController.class
-com\example\aula\repository\CardapioRepository.class
-com\example\aula\service\CardapioService.class
