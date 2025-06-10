@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/cardapio")
 public class CardapioController {
@@ -31,7 +30,7 @@ public class CardapioController {
         cardapioService.salvar(usuario);
         return ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(Map.of("mensagem", "Usuário cadastrado com sucesso."));
+                .body(Map.of("mensagem", "Cardapio cadastrado com sucesso."));
     }
 
     @PutMapping
@@ -39,7 +38,7 @@ public class CardapioController {
         cardapioService.atualizar(Cardapio);
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(Map.of("mensagem", "Usuário atualizado com sucesso"));
+                .body(Map.of("mensagem", "Cardapio atualizado com sucesso"));
     }
 
     @DeleteMapping("/{id}")
@@ -47,6 +46,6 @@ public class CardapioController {
         cardapioService.deletar(id);
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(Map.of("mensagem", "Usuário excluído com sucesso"));
+                .body(Map.of("mensagem", "Cardapio excluído com sucesso"));
     }
 }
