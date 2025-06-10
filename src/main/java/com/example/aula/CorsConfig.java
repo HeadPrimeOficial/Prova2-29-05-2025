@@ -1,4 +1,4 @@
-package com.example.aula.CorsConfig;
+package com.example.aula;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
