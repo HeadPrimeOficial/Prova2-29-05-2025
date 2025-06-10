@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                             "https://test-versel-tau.vercel.app",         
-                            "https://prova2-29-05-2025.onrender.com"      
+                            "https://prova2-29-05-2025-1.onrender.com"      
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
